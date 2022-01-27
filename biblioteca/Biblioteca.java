@@ -1,4 +1,4 @@
-package projeto.dois;
+package biblioteca;
 
 public class Biblioteca {
 	
