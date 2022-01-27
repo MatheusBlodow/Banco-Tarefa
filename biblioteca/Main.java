@@ -1,4 +1,4 @@
-package projeto.dois;
+package biblioteca;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class Main {
 		List <Integer> paginas1 = new ArrayList<Integer>();
 		nomeLivro1.add("Narnia");
 		paginas1.add(890);
-		nomeLivro1.add("História");
+		nomeLivro1.add("HistÃ³ria");
 		paginas1.add(780);
 		
 		List <String> nomeLivro2 = new ArrayList<>();
