@@ -1,4 +1,4 @@
-package projeto.dois;
+package biblioteca;
 
 import java.util.List;
 
@@ -47,8 +47,8 @@ public class Livros implements ILivros {
 		for (String livros : this.livro) {
 			System.out.println(String.format("Bem vindo a %s", this.biblioteca.getNome()));
 			System.out.println(String.format("Livro: %s", livros));
-			System.out.println(String.format("Número de registro do aluguel: %d", this.registroAluguel));
-			System.out.println(String.format("Número de páginas: %d", this.numeroPaginas.get(i)));
+			System.out.println(String.format("NÃºmero de registro do aluguel: %d", this.registroAluguel));
+			System.out.println(String.format("NÃºmero de pÃ¡ginas: %d", this.numeroPaginas.get(i)));
 			System.out.println(String.format("Cliente : %s", this.cliente.getNome()));
 			System.out.println(String.format("Numero de Registro do Cliente : %d", this.cliente.getRegistro()));
 			System.out.println("");
